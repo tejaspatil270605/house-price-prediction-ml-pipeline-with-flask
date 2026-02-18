@@ -1,0 +1,54 @@
+body{
+    background-image: url("/static/house_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial;
+    text-align: center;
+    color: black;
+    backdrop-filter: blur(3px);
+    font-weight: bold;
+}
+
+form{
+    background: rgba(173, 165, 165, 0.6);
+    padding: 5px;
+    margin: auto;
+    width: 28%;
+    border-radius: 15px;
+    max-width: 500px;
+
+}
+
+input, select{
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 4px;
+}
+
+input[type="submit"]{
+    background: orange;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+select{
+    background-color: burlywood;
+}
+
+h2{
+    color: darkslategrey;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: xx-large;
+}
+
+h3{
+    color:rgb(163, 77, 156);
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: larger;
+    font-size: x-large;
+}

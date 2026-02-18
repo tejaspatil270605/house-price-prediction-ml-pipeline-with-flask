@@ -1,0 +1,13 @@
+# project Requirements :-
+
+pandas
+numpy
+scikit-learn
+xgboost
+flask
+joblib
+scipy
+matplotlib
+seaborn
+shap
+jupyter
