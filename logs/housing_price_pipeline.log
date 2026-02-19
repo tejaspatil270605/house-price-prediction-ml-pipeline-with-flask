@@ -1,3 +1,22 @@
-2026-01-21 20:51:21,840 - INFO - Model Loading For Prediction Successfully
-2026-01-21 20:51:21,906 - INFO - Testing Data Loading Successfully
-2026-01-21 20:51:22,172 - INFO - Prediction Is Done
+2026-02-19 09:13:01,205 - INFO - === Training Started ===
+2026-02-19 09:13:01,205 - INFO - File Loaded Successfully : data\housing.csv
+2026-02-19 09:13:01,302 - INFO - Data Shape is : (20640, 10)
+2026-02-19 09:13:01,364 - INFO - Splitting Train and Test Data Successfully.
+2026-02-19 09:13:01,365 - INFO - Train Data : (16512, 10)
+2026-02-19 09:13:01,365 - INFO - Test Data : (4128, 10)
+2026-02-19 09:13:01,752 - INFO - Features And Labels Seperate Successfully.
+2026-02-19 09:13:01,755 - INFO - Seperate Numerical And Categorical Attributes Successfully.
+2026-02-19 09:13:01,755 - INFO - Numerical Attributes : ['longitude', 'latitude', 'housing_median_age', 'total_rooms', 'total_bedrooms', 'population', 'households', 'median_income']
+2026-02-19 09:13:01,756 - INFO - Categorical Attributes : ['ocean_proximity']
+2026-02-19 09:13:01,756 - INFO - Random Search CV Started...
+2026-02-19 09:13:01,770 - INFO - Model Pipeline Loading...
+2026-02-19 09:17:15,114 - INFO - Best Parameter : {'model__colsample_bytree': np.float64(0.6315019587200501), 'model__gamma': np.float64(8.83963769398141), 'model__learning_rate': np.float64(0.0632762652235792), 'model__max_depth': 5, 'model__min_child_weight': 11, 'model__n_estimators': 896, 'model__reg_alpha': np.float64(2.9740274719103765), 'model__reg_lambda': np.float64(4.329159605151062), 'model__subsample': np.float64(0.9203797178729599)}
+2026-02-19 09:17:15,114 - INFO - Best cv Rmse : 46924.37744920218
+2026-02-19 09:17:15,114 - INFO - Metrics Calculation Started...
+2026-02-19 09:17:26,070 - INFO - === Training Completed ===
+2026-02-19 09:17:26,134 - INFO - metrics : {'train_r2_score': 0.9177932350578321, 'train_mse': 1100418066.528501, 'train_mae': 22945.005843761355, 'train_rmse': np.float64(33172.549894882985), 'test_r2_score': 0.8453486382544905, 'test_mse': 2015594418.3495147, 'test_mae': 30378.569733375727, 'test_rmse': np.float64(44895.371903454754), 'cv_rmse_mean': np.float64(46924.37744920218), 'cv_rmse_std': np.float64(1044.8812776198972)}
+2026-02-19 09:17:26,134 - INFO - Model Trained Successfully
+2026-02-19 09:17:26,134 - INFO - Model Saved Succesfully.
+2026-02-19 09:19:05,927 - INFO - Model Loading For Prediction Successfully
+2026-02-19 09:19:06,046 - INFO - Testing Data Loading Successfully
+2026-02-19 09:19:06,306 - INFO - Prediction Is Done

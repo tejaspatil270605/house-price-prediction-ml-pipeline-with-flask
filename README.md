@@ -1,12 +1,12 @@
 ## HOUSING PRICE PREDICTION (EDA + ML PIPELINE + SHAP + FLASK)
 
-# Project Overview:-
+### Project Overview:-
 This is an end-to-end Data Science project that predicts housing prices using an optimized
 XGBoost model.
 It includes EDA in Jupyter Notebook, machine learning pipeline, SHAP explainability, and Flask
 deployment.
 
-# Project Workflow:-
+### Project Workflow:-
 EDA (Jupyter Notebook)
         ↓
 Data Preprocessing Pipeline
@@ -21,7 +21,7 @@ SHAP Explainability
         ↓
 Flask Deployment
 
-# Project Structure:-
+### Project Structure:-
 - data/ (dataset and outputs)
 - notebook/EDA.ipynb (Exploratory Data Analysis)
 - logs/ (pipeline logs)
@@ -33,7 +33,7 @@ Flask Deployment
 - src/shap_analysis.py
 - app.py (Flask app)
 
-# Technologies Used:-
+### Technologies Used:-
 Python, Pandas, NumPy, Scikit-learn, XGBoost, SHAP, Flask, Joblib, Matplotlib
 ML Pipeline Features:
 - Missing value handling
@@ -43,10 +43,10 @@ ML Pipeline Features:
 - One-hot encoding
 - RandomizedSearchCV tuning
 
-# Evaluation Metrics:-
+### Evaluation Metrics:-
 R2 Score, MAE, MSE, RMSE, Cross-validation RMSE
 
-# How to Run:-
+### How to Run:-
 1. Install libraries:
 pip install pandas numpy scikit-learn xgboost flask shap matplotlib joblib scipy jupyter
 2. Run EDA:
@@ -59,7 +59,7 @@ python shap_analysis.py
 python app.py
 Open: http://127.0.0.1:5000
 
-# For Prediction :-
+### For Prediction :-
 If model is already trained and saved:
 Run:
 python main.py
@@ -74,9 +74,9 @@ Note:
 Model will retrain only if model_pipeline.pkl is not found.
 Otherwise it runs in prediction mode.
 
-# Resume Value:-
+### Resume Value:-
 This project demonstrates end-to-end ML pipeline, feature engineering, hyperparameter tuning,model explainability (SHAP), Flask deployment, and production-level structure.
 
-# Author:-
+### Author:-
 Tejas Patil
-  -Aspiring Data Scientist & ML Engineer
+   - Aspiring Data Scientist & ML Engineer
